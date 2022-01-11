@@ -1,0 +1,259 @@
+/* Navbar */
+
+nav a {
+    padding: 5px;
+}
+
+nav img {
+    height: 60px;
+    width: 200px;
+}
+
+/* Main */
+
+main a {
+    margin-top: 30px;
+}
+
+/* Main-Typhogaphy */
+
+main h4 {
+    font-weight: 500;
+    line-height: 0.5px;
+}
+
+main h3 {
+    font-weight: 700;
+}
+
+/* About */
+
+.about {
+    margin-top: 175px;
+}
+
+.about h5{
+    font-weight: 500;
+}
+
+.about h4{
+    font-weight: 600;
+}
+
+.about h4::after {
+    content: "";
+    display: block;
+	width: 80px;
+	height: 3px;
+	background: #7b1fa2;
+	margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.nav-color {
+    background: rgb(232,223,223);
+    background: linear-gradient(26deg, rgba(232,223,223,1) 0%, rgba(142,35,187,1) 0%, rgba(184,21,184,1) 53%);
+}
+
+/* Skill About */
+
+.skills {
+    margin-top: 25px;
+}
+
+.skills p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Services */
+
+.services {
+    margin-top: 50px;
+    margin-bottom: -25px;
+    padding-top: 100px;
+}
+
+.services h5 {
+    font-weight: 500;
+}
+
+.services h4 {
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.services h4::after {
+    content: "";
+    display: block;
+	width: 80px;
+	height: 3px;
+	background: #7b1fa2;
+	margin: 40px auto;
+}
+
+/* Card-Services */
+
+.card-content img {
+    height: 75px;
+    width: 75px;
+}
+
+.card h6 {
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.filter-color{
+    filter: invert(20%) sepia(36%) saturate(4952%) hue-rotate(269deg) brightness(88%) contrast(103%);
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding-top: 200px;
+}
+
+.portfolio h4 {
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.portfolio h5 {
+    font-weight: 500;
+}
+
+.portfolio h4::after {
+    content: "";
+    display: block;
+	width: 80px;
+	height: 3px;
+	background: #7b1fa2;
+	margin: auto 0;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+/* Portfolio-Carousel */
+
+.portfolio img {
+    margin-top: 75px;
+    width: 100%;
+    height: 50px;
+}
+
+.portfolio p {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.azul {
+    background-color: #30DBC1;
+}
+
+.verde {
+    background-color: #8DDB46;
+}
+
+.amarelo {
+    background-color: #DBD25C;
+}
+
+/* Contact */
+
+.contact {
+    margin-top: 125px;
+    margin-bottom: 100px;
+}
+
+/* Card-Contact */
+
+.card-contact {
+    background: rgb(232,223,223);
+    background: linear-gradient(26deg, rgba(232,223,223,1) 0%, rgba(142,35,187,1) 0%, rgba(184,21,184,1) 53%);
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.card-contact p {
+    font-size: 18px;
+}
+
+.card-contact h4 {
+    font-weight: 600;
+}
+
+.card-contact h4::after {
+    content: "";
+    display: block;
+	width: 80px;
+	height: 2px;
+	background: #ffffff;
+	margin: auto 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4db6ac;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.btn-card p {
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    background: rgb(232,223,223);
+    background: linear-gradient(26deg, rgba(232,223,223,1) 0%, rgba(142,35,187,1) 0%, rgba(184,21,184,1) 53%);
+}
+
+/* Animations */
+
+.js .js-scroll {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+    transition: .3s;
+}
+  
+.js .js-scroll.ativo {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+/* Tools */
+.centerAlign {
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+/* Responsive */
+@media (max-width: 739px) {
+    .portfolio .carousel-item img {
+        width: 75%;
+    }
+
+    .main-content {
+        margin-top: 200px;
+    }
+
+    .card-contact {
+        flex-direction: column;
+    }
+
+    .portfolio {
+        padding-top: 150px;
+    }
+}
